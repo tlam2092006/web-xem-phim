@@ -1,0 +1,38 @@
+body {
+    font-family: Arial;
+    text-align: center;
+    background: #111;
+    color: white;
+}
+
+h1 {
+    margin: 20px;
+}
+
+.movies {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.movie {
+    background: #222;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.movie img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+a {
+    display: block;
+    margin-top: 10px;
+    color: yellow;
+    text-decoration: none;
+}
+
+a:hover {
+    color: pink;
+}
